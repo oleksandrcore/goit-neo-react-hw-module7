@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.fieldContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    cursor: pointer;
+    padding: 5px;
+    max-width: 110px;
+    text-align: center;
+}
